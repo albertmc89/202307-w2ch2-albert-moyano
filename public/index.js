@@ -1,0 +1,1 @@
+const strictEquals = (valueA, valueB) => {};
