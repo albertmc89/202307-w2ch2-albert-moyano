@@ -1,4 +1,6 @@
-const strictEquals = (valueA, valueB) => {};
+const strictEquals = (valueA, valueB) => {
+  return Object.is(valueA, valueB);
+};
 
 console.log(strictEquals(1, 1));
 console.log(strictEquals(NaN, NaN));
